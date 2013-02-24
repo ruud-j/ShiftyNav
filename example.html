@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>ShiftyNav Demo</title>
+	<style type="text/css">
+		body {
+			background-color: black;
+			color: white;
+			margin: 50px;
+		}
+		li {
+			display: inline;
+			list-style-type: none;
+		}
+		a {
+			margin-right: 20px;
+			text-align: center;
+			display: inline-block;
+			height: 20px;
+			width: 100px;
+			background-color: #666;
+			color: white;
+		}
+		div.text {
+			padding: 20px;
+			background-color: #333;
+		}
+	</style>
+</head>
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="jquery.shiftynav.js"></script>
+<script type="text/javascript">
+$(function() {
+	$('div#nav').shiftynav();
+});
+</script>
+</head>
+
+<body>
+
+<div id="nav">
+  <ul>
+    <li><a href="#text-1">Text 1</a></li>
+    <li><a href="#text-2">Text 2</a></li>
+    <li><a href="#text-3">Text 3</a></li>
+  </ul>
+  <div>
+	  <div id="text-1" class="text">
+	  <h2>Text 1</h2>
+	  <p>
+	 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed dictum tortor. Morbi faucibus augue porta dui condimentum consequat. Proin nec tincidunt elit. Praesent lobortis pellentesque pharetra. Duis nec ligula nibh, in scelerisque est. Nunc consectetur bibendum nibh, feugiat mattis massa fringilla sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Nunc erat ligula, luctus sed euismod suscipit, consectetur vitae nulla. Suspendisse venenatis scelerisque fringilla. Maecenas sagittis tincidunt nulla malesuada accumsan. Sed condimentum varius dui, vestibulum commodo arcu cursus vitae.
+		</p>
+		<p>
+		Ut sem augue, aliquet eget ullamcorper non, facilisis non nunc. Ut interdum massa id tortor egestas egestas. Duis lacinia massa egestas lorem ullamcorper ullamcorper. Praesent a arcu nec lectus tristique adipiscing vitae a arcu. Sed congue luctus libero at pulvinar. Donec ut nunc in dolor suscipit eleifend. Fusce nec elementum risus. Nam lacinia, sem lacinia egestas tempor, orci lectus porta sem, eget gravida ligula nisl eu arcu. Vestibulum a lacus tortor. Sed imperdiet mi id lorem imperdiet rutrum lobortis urna volutpat. Proin eleifend lacus et massa rhoncus eget egestas mauris dictum. Fusce pulvinar porttitor justo ac varius. Ut ultrices nisi sed tortor egestas in eleifend lacus egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+		</p>
+	  </div>
+	  <div id="text-2" class="text">
+	  <h2>Text 2</h2>
+	  <p>
+	  Praesent placerat quam nec neque adipiscing placerat. Aliquam scelerisque cursus bibendum. Aenean ultricies sollicitudin dolor eu dignissim. Sed rhoncus commodo nunc ac facilisis. Morbi congue tortor sit amet nibh semper facilisis. Nulla leo purus, tincidunt in pellentesque et, pretium ac nunc. Donec nisi nunc, dapibus ut suscipit ut, ullamcorper iaculis felis. Etiam nec commodo nibh. Aenean volutpat egestas lacus et consectetur. Nam leo tortor, consectetur ac consectetur vel, porta eget lorem. Integer bibendum hendrerit erat, id iaculis leo pellentesque eget. Donec elit mauris, tempus eget suscipit non, tincidunt ut enim. Quisque nec elit fermentum lorem lacinia lobortis a nec quam.
+	  </p>
+	  <p>
+	  Aliquam pretium lacinia metus, quis porttitor augue porta vel. Suspendisse potenti. Maecenas vel pellentesque erat. Ut dictum enim vitae tortor ornare mollis. Cras pretium odio id quam viverra eu pretium est vehicula. Cras quis ornare felis. Cras imperdiet, orci sed accumsan dictum, sapien sem euismod nulla, vitae tempus turpis enim in diam.
+	  </p>
+	  </div>
+	  <div id="text-3" class="text">
+	  <h2>Text 3</h2>
+	  	<p>Mauris non enim justo. Praesent varius vulputate velit, eu condimentum lorem blandit ac. Donec justo lectus, blandit eget consequat eu, aliquam ac enim. Quisque ullamcorper tortor ut est gravida et posuere sem ornare. Ut porta fringilla rhoncus. Aliquam gravida adipiscing aliquet. Maecenas dui dolor, vulputate at dictum sed, mattis a tellus. Quisque elementum faucibus ante eget pretium. Vestibulum enim leo, tincidunt id faucibus sit amet, sollicitudin sed lacus. Fusce eget quam dolor. Aliquam sagittis quam vitae magna elementum imperdiet consectetur a quam. Integer vitae congue mi. Proin interdum, erat at interdum scelerisque, leo metus feugiat libero, sit amet semper tortor ligula vitae ante. Morbi fringilla bibendum felis, et blandit ante pharetra et. Suspendisse varius leo et sapien tempus bibendum imperdiet lorem porta. Aliquam in lorem a tortor aliquet lobortis.
+		</p>
+		<p>
+		Sed molestie volutpat felis eget hendrerit. Nullam in erat urna, et lacinia neque. Fusce hendrerit pellentesque magna, id tincidunt augue imperdiet vitae. Aliquam est mauris, hendrerit adipiscing ullamcorper eget, rutrum sed nisl. Nunc non volutpat nibh. Duis porttitor lorem pellentesque ipsum ullamcorper sed dapibus mi egestas. Integer interdum, erat nec ornare faucibus, leo enim semper metus, et vestibulum ligula sem quis odio. Mauris tortor tortor, cursus non venenatis in, facilisis ac nisi. In elit eros, placerat id venenatis ut, sodales sagittis arcu. Maecenas vitae elit quis velit volutpat mattis ut a elit. Donec volutpat felis vel eros ultrices sodales vel eget enim. Phasellus mattis, justo condimentum iaculis auctor, risus ipsum tempus diam, nec tempor felis ligula eu ligula. Aliquam nec est libero, non varius diam. Cras fringilla tortor in odio fringilla scelerisque.
+		</p>
+	  </div>
+  </div>
+</div>
+</body>
+
+</html>
