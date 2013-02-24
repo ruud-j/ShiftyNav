@@ -1,7 +1,7 @@
 [ShiftyNav jQuery plugin](http://shiftynav.rjansen.name/)
 =========
 
-ShiftyNav is a jQuery plugin. It provides a unique set of animations for navigation on websites, inspired by Android apps and widgets screen. ShiftyNav is really easy to implement, similar to using jQuery UI Tabs.
+ShiftyNav is a jQuery plugin. It provides a unique set of animations for navigation on websites, inspired by the Android apps and widgets screen. ShiftyNav is really easy to implement, similar to using jQuery UI Tabs.
 
 Demo
 ----
