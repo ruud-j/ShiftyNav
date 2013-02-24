@@ -1,0 +1,4 @@
+ShiftyNav
+=========
+
+ShiftyNav jQuery plugin
