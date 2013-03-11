@@ -1,0 +1,39 @@
+{
+    "name": "shiftynav",
+    "version": "1.0.0",
+    "title": "jQuery ShiftyNav",
+    "author": {
+        "name": "Ruud Jansen",
+        "url": "http://shiftynav.rjansen.name/"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://shiftynav.rjansen.name/license"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">=1.4"
+    },
+    "description": "ShiftyNav provides a unique set of animations for navigation on websites, inspired by the Android apps and widgets screen, implemented similar to jQuery UI Tabs.",
+    "keywords": [
+        "animation",
+		"navigation",
+		"tabs",
+		"effect",
+		"ui",
+		"shift",
+		"slide"
+    ],
+    "homepage": "http://shiftynav.rjansen.name/",
+    "docs": "http://shiftynav.rjansen.name/",
+    "demo": "http://shiftynav.rjansen.name/demo.html",
+    "bugs": "https://github.com/ruud-j/ShiftyNav/issues",
+    "maintainers": [
+        {
+            "name": "Ruud Jansen",
+            "email": "rd.jansen@gmail.com",
+            "url": "http://www.rjansen.name/"
+        }
+    ]
+}
