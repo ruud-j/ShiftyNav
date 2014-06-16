@@ -16,6 +16,12 @@
 
 		var settings = $.extend(defaults, options || {});
 
+		function resetActive(list_items) {
+			list_items.each(function(idx, el) {
+				$(this).parent().removeClass('shiftynav-active');
+			});
+		}
+
 		function shiftOut(el) {
 			var width = el.css('width');
 			el
@@ -138,6 +144,10 @@
 
 					// Set new active id
 					active = index;
+
+					// Set active class to li
+					resetActive(list_items);
+					$(this).parent().addClass('shiftynav-active');
 				});
 			});
 
