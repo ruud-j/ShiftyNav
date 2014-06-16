@@ -157,6 +157,9 @@
 					$('div' + menu_items[key]).hide();
 				}
 			}
+
+			// Initialize first active class
+			$(list_items[active]).parent().addClass('shiftynav-active');
 		});
 	};
 })(jQuery, window);
